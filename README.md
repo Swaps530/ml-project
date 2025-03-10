@@ -1,27 +1,45 @@
-Student Performance Prediction
-This project predicts students' academic performance based on demographic and educational features. It employs various regression algorithms, with CatBoost Regressor achieving the best results. The project is structured as a machine learning pipeline with modular components for data ingestion, transformation, model training, and deployment.
+# Student Performance Prediction  
 
-Project Overview
-Dataset:
-The dataset contains features such as gender, ethnicity, parental education level, lunch type, test preparation status, and scores in math, reading, and writing.
+This project predicts students' academic performance based on demographic and educational features. It employs various regression algorithms, with **CatBoost Regressor** achieving the best results. The project is structured as a machine learning pipeline with modular components for data ingestion, transformation, model training, and deployment.  
 
-Objective:
-To predict students' test scores using machine learning regression techniques.
+---
 
-Best Model:
-CatBoost Regressor achieved the highest R² score of 87%.
+## 🚀 **Project Overview**  
 
-Key Features:
+### 📂 **Dataset**  
+The dataset contains the following features:  
+- **Gender** – Student’s gender.  
+- **Ethnicity** – Student’s ethnicity.  
+- **Parental Education Level** – Highest education level attained by parents.  
+- **Lunch Type** – Type of lunch (standard/reduced).  
+- **Test Preparation Status** – Whether the student completed test preparation.  
+- **Scores** – Test scores in math, reading, and writing.  
 
-Pipeline Implementation: Modular components for ingestion, transformation, and training ensure scalability and reusability.
+### 🎯 **Objective**  
+To predict students' test scores using machine learning regression techniques.  
 
-Best Model: CatBoost Regressor with an R² score of 87%.
+### 🏆 **Best Model**  
+- **CatBoost Regressor** achieved the highest R² score of **87%**.  
 
-Web Interface: Flask-based web app for user interaction.
+---
 
-CI/CD Integration: Automated workflows using GitHub Actions.
+## 🔑 **Key Features**  
+✅ **Pipeline Implementation:**  
+- Modular components for ingestion, transformation, and training ensure scalability and reusability.  
 
-Project Structure
+✅ **Best Model:**  
+- CatBoost Regressor with an R² score of **87%**.  
+
+✅ **Web Interface:**  
+- Flask-based web app for user interaction.  
+
+✅ **CI/CD Integration:**  
+- Automated workflows using **GitHub Actions**.  
+
+---
+
+## 📁 **Project Structure**  
+```plaintext
 ├── .github/workflows/  
 │   └── main_studentperformancepred.yml  # CI/CD workflow configuration  
 ├── artifacts/  
@@ -55,3 +73,4 @@ Project Structure
 ├── app.py                               # Flask application for deployment  
 ├── requirements.txt                     # Python dependencies  
 ├── setup.py                             # Package setup file  
+
